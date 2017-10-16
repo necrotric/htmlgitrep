@@ -1,0 +1,58 @@
+body {
+    display: block;
+    width: 100%;
+    image-align: center;
+    background-position: center;
+    background-image: url("jupiter.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-width:1920px;
+    background-height:1080px;
+    padding-top: 0px;
+    padding-bottom:1080px;
+    padding-right:0px;
+    padding-left:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:200px;
+    margin-left:0px;
+}
+div.lank
+{
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    top: 10%;
+    left: 0%;
+    margin-left: 0px; /* margin is -0.5 * dimension */
+    margin-top: -25px;
+
+}
+div.scrollmenu
+{
+    background-color: #0C0E1A;
+    overflow: auto;
+    white-space: nowrap;
+    position: fixed;
+}
+div.scrollmenu a
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration:none;
+}
+div.scrollmenu a:hover
+{
+    background-color: green;
+}
+div.container {
+    background-color: #0C0E1A;
+    overflow: auto;
+    white-space: nowrap;
+    float: right;
+    width: 30%;
+    margin-right: 1px;
+}
