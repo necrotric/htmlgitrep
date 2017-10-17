@@ -1,0 +1,40 @@
+#Firstdiv {
+    font-size: 25px;
+}
+p.firstpa {
+    font-size: 30px;
+}
+p.divpar {
+    font-size: 45;
+}
+a.p1 {
+color: red;
+}
+a.p2 {
+color: yellow;
+}
+a.p3 {
+color: green;
+}
+a.p4 {
+color: blue;
+}
+h1  {
+background-color: grey;
+}
+p {
+    background-color:yellow;
+}
+div p {
+background-color:green;
+}
+div ~p{
+background-color:red;
+}
+div +p{
+background-color:pink;
+}
+ol.d a{
+list-style-type: upper-latin;
+text-decoration: none;
+}
